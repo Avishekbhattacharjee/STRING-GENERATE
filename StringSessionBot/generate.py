@@ -1,27 +1,35 @@
-import Config
+import subprocess
+import importlib
+
+# Install required packages
+subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
+
+# Import necessary modules
 from pyStringss.Data import Data
+from pyStringss.generate import ERROR_MESSAGE, generate_session
 from pyrogram import Client, filters
 from pyrogram1 import Client as Client1
 from telethon.sync import TelegramClient
 from asyncio.exceptions import TimeoutError
 from telethon.sessions import StringSession
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-from telethon.tl.functions.channels import (
-    JoinChannelRequest, LeaveChannelRequest)
+from telethon.tl.functions.channels import JoinChannelRequest, LeaveChannelRequest
 from pyrogram.errors import (
     ApiIdInvalid, PhoneCodeExpired, PhoneCodeInvalid, PhoneNumberInvalid,
-    PasswordHashInvalid, SessionPasswordNeeded)
+    PasswordHashInvalid, SessionPasswordNeeded
+)
 from telethon.errors import (
     ApiIdInvalidError, PhoneCodeExpiredError, PhoneCodeInvalidError,
     PhoneNumberInvalidError, PasswordHashInvalidError,
-    SessionPasswordNeededError)
+    SessionPasswordNeededError
+)
 from pyrogram1.errors import (
     ApiIdInvalid as ApiIdInvalid1, PhoneCodeExpired as PhoneCodeExpired1,
     PhoneCodeInvalid as PhoneCodeInvalid1,
     PhoneNumberInvalid as PhoneNumberInvalid1,
     PasswordHashInvalid as PasswordHashInvalid1,
-    SessionPasswordNeeded as SessionPasswordNeeded1)
-
+    SessionPasswordNeeded as SessionPasswordNeeded1
+)
 
 gen_buttons = [
     [
