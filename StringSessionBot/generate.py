@@ -1,5 +1,5 @@
 import Config
-from LegendSS.Data import Data
+from Stringss.Data import Data
 from pyrogram import Client, filters
 from pyrogram1 import Client as Client1
 from telethon.sync import TelegramClient
