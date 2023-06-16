@@ -3,12 +3,7 @@ import importlib
 
 # Install required packages
 subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
-
-# Import the Data module from pyStringss
-try:
-    import pyStringss.Data as Data
-except ImportError:
-    print("Failed to import pyStringss.Data")
+from pyStringss.Data import Data
 
 # Import other necessary modules
 from pyrogram import Client, filters
