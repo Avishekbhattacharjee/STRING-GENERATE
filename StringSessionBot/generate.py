@@ -1,11 +1,4 @@
-import subprocess
-import importlib
-
-# Install required packages
-subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
-
-# Import necessary modules
-from pyStringss.Data import Data
+from Stringss.Data import Data
 from pyStringss.generate import ERROR_MESSAGE, generate_session
 from pyrogram import Client, filters
 from pyrogram1 import Client as Client1
