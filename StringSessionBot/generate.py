@@ -1,5 +1,5 @@
 from Stringss.Data import Data
-from pyStringss.generate import ERROR_MESSAGE, generate_session
+from Stringss.generate import ERROR_MESSAGE, generate_session
 from pyrogram import Client, filters
 from pyrogram1 import Client as Client1
 from telethon.sync import TelegramClient
