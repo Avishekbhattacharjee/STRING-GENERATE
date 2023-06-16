@@ -1,4 +1,4 @@
-from Stringss.Data import Data
+from pyStringss.Data import Data
 
 # Import other necessary modules
 from pyrogram import Client, filters
