@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 from pyLegendSS.Data import Data
+=======
+from Stringss.Data import Data
+
+# Import other necessary modules
+>>>>>>> 4c2a2ebd7331c35e9afbce1d9cf0d82854682ef9
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
 
@@ -11,3 +17,4 @@ async def about(bot, msg):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(Data.home_buttons),
     )
+

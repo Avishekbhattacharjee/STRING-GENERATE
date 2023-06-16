@@ -1,8 +1,14 @@
 from pyrogram import Client
+<<<<<<< HEAD
 from LegendSS.Data import Data
 from LegendSS.generate import ERROR_MESSAGE, generate_session
+=======
+from pyStringss.Data import Data
+from pyStringss.generate import ERROR_MESSAGE, generate_session
+>>>>>>> 4c2a2ebd7331c35e9afbce1d9cf0d82854682ef9
 from pyrogram1.types import (
-    CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup)
+    CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
+)
 
 
 # Callbacks
@@ -74,3 +80,4 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 await generate_session(bot, callback_query.message, telethon=True)
         except Exception as e:
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
+
