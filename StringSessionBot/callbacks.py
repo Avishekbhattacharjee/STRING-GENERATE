@@ -1,11 +1,6 @@
 from pyrogram import Client
-<<<<<<< HEAD
 from LegendSS.Data import Data
 from LegendSS.generate import ERROR_MESSAGE, generate_session
-=======
-from pyStringss.Data import Data
-from pyStringss.generate import ERROR_MESSAGE, generate_session
->>>>>>> 4c2a2ebd7331c35e9afbce1d9cf0d82854682ef9
 from pyrogram1.types import (
     CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 )

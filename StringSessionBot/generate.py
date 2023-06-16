@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import Config
 from LegendSS.Data import Data
-=======
-from Stringss.Data import Data
-from Stringss.generate import ERROR_MESSAGE, generate_session
->>>>>>> 4c2a2ebd7331c35e9afbce1d9cf0d82854682ef9
 from pyrogram import Client, filters
 from pyrogram1 import Client as Client1
 from telethon.sync import TelegramClient

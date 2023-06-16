@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-from pyLegendSS.Data import Data
-=======
-from Stringss.Data import Data
-
-# Import other necessary modules
->>>>>>> 4c2a2ebd7331c35e9afbce1d9cf0d82854682ef9
+from LegendSS.Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
 
