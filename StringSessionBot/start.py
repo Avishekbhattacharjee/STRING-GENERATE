@@ -1,3 +1,9 @@
+import subprocess
+import importlib
+
+# Install required packages
+subprocess.check_call(["pip", "install", "-r", "requirements.txt"])
+
 from pyStringss.Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
