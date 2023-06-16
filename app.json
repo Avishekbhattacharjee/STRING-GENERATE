@@ -17,7 +17,7 @@
       "size": "eco"
     }
   },
-  "repository": "https://github.com/LEGEND-AI/STRING-GENERATE",
+  "repository": "https://github.com/Avishekbhattacharjee/STRING-GENERATE",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
