@@ -1,6 +1,6 @@
 from pyrogram import Client
-from Stringss.Data import Data
-from Stringss.generate import ERROR_MESSAGE, generate_session
+from LegendSS.Data import Data
+from LegendSS.generate import ERROR_MESSAGE, generate_session
 from pyrogram1.types import (
     CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup)
 
