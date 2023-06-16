@@ -6,3 +6,4 @@ pyrogram1==0.1.0
 telethon==1.26.1
 pyLegendSS
 TgCrypto==1.2.5
+python-dotenv

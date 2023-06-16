@@ -1,9 +1,8 @@
-import Config
 import logging
 from pyromod import listen
 from pyrogram import Client, idle
-from pyrogram.errors import (
-    ApiIdInvalid, AccessTokenInvalid, ApiIdPublishedFlood)
+from pyrogram.errors import ApiIdInvalid, AccessTokenInvalid, ApiIdPublishedFlood
+from Config import Config
 
 
 logging.basicConfig(
@@ -30,7 +29,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
     uname = app.get_me().username
-    print("Hey @{username} ! Welcome to the bot @{uname} ")
+    print(f"Hey! Welcome to the bot @{uname} ")
     print("🔰Support Group🔰 [LOGS] : @TheDevsChats")
     print("⚜️Update Group⚜️  [LOGS] : @TheTelegramBotz")
     print(f"✨Bot Username [LOGS] :@{uname}!")
