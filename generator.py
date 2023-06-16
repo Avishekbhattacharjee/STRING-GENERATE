@@ -2,7 +2,7 @@ import logging
 from pyromod import listen
 from pyrogram import Client, idle
 from pyrogram.errors import ApiIdInvalid, AccessTokenInvalid, ApiIdPublishedFlood
-from config import Config
+from Config import Config
 
 
 logging.basicConfig(
