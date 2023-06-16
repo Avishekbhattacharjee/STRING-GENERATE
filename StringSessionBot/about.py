@@ -1,4 +1,4 @@
-from Stringss.Data import Data
+from pyStringss.Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
 
