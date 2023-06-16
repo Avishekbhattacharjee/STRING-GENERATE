@@ -1,0 +1,43 @@
+{
+  "name": "String Session Generator",
+  "description": "Telegram bot to generate Pyrogram & Telethon StringSession Made By LegendBoy(@LegendBot_Owner)",
+  "logo": "https://graph.org/file/c9ac4314d26c77711986d.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "repository": "https://github.com/LEGEND-AI/STRING-GENERATE",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": false,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": false,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
